@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d -v $(pwd)/logs/:/logs/ docker.neg/ecbd/shoppingcart-clean:1.1.0 --publicConfig=http://trgit2/bigdata/EC2Config/raw/master/ShoppingCart/public.properties --privateConfig=http://trgit2/bigdata/EC2Config/raw/master/ShoppingCart/private.properties --local=e3
