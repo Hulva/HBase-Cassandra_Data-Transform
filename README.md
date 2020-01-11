@@ -5,7 +5,8 @@
 * [POST]source: Cassandra -> destination: Cassandra **/datacopy/cassandra2cassandra**
 * [POST]source: Cassandra -> destination: HBase **/datacopy/cassandra2hbase**
 
-* [GET]check removing status: **/datacopy/status**
+* [GET]check transforming status: **/datacopy/status**
+* [GET]change transforming **enable** status: **/datacopy/enable**
 * [GET]check database TTL setting(default: 2592000s): **/datacopy/database/ttl**
 * [POST]change database TTL setting: **/datacopy/database/ttl**
 
